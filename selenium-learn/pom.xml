@@ -16,5 +16,26 @@
       <version>7.11.0</version>
       <scope>test</scope>
     </dependency>
+    
+    <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-chrome-driver -->
+<dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-chrome-driver</artifactId>
+    <version>4.34.0</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/com.microsoft.edge/msedge-selenium-tools-java -->
+<dependency>
+    <groupId>com.microsoft.edge</groupId>
+    <artifactId>msedge-selenium-tools-java</artifactId>
+    <version>3.141.1</version>
+</dependency>
+
+
+  	<dependency>
+  		<groupId>Introduction</groupId>
+  		<artifactId>Introduction</artifactId>
+  		<version>0.0.1-SNAPSHOT</version>
+  	</dependency>
   </dependencies>
 </project>
