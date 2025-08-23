@@ -12,13 +12,7 @@ public class AdavancedLocators {
 		
 		String name = "rahul";
 
-		System.setProperty("webdriver.chrome.driver", "/Users/rahulshetty/Documents/chromedriver");
-
 		ChromeDriver driver = new ChromeDriver();
-
-		// System.setProperty("webdriver.edge.driver", "/Users/rahulshetty/Documents/msedgedriver");
-		
-		// WebDriver driver = new EdgeDriver();
 
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 
@@ -42,7 +36,7 @@ public class AdavancedLocators {
 
 		driver.findElement(By.xpath("//*[text()='Log Out']")).click();
 
-		driver.close();
+		driver.quit();
 
 		}
 
@@ -56,7 +50,7 @@ public class AdavancedLocators {
 
 		driver.findElement(By.linkText("Forgot your password?")).click();
 
-		Thread.sleep(1000);
+		Thread.sleep(2000);
 
 		//Css selector using class name
 		driver.findElement(By.cssSelector(".reset-pwd-btn")).click();

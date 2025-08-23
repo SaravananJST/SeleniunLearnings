@@ -100,7 +100,7 @@ public class CoreJavaBasics {
 		//Enhanced for loop
 		for (String aryListEnch : aryList)
 		{
-			System.out.println(aryListEnch+ " Enhanced for loop");
+			System.out.println(aryListEnch + " Enhanced for loop");
 		}
 		
 		//Checking the items in the arraylist
