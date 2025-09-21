@@ -42,6 +42,10 @@ public class CoreJavaBasics {
 		arrIntegers[3] = 6;
 		arrIntegers[4] = 56;
 		
+		//Arrays of strings
+		String[] arrStrings = new String[4];
+		arrStrings[0]= "Name";
+		
 		//For loop
 		for(int i=0; i<arrIntegers.length; i++)
 		{
@@ -64,7 +68,7 @@ public class CoreJavaBasics {
 		System.out.println(name[i]);
 		}
 		
-		//Enhanced for loop
+		//Enhanced for loop - Always incremental, there is no decremental methos.
 		for (String Ename: name)
 		{
 		System.out.println(Ename);
@@ -103,11 +107,11 @@ public class CoreJavaBasics {
 			System.out.println(aryListEnch + " Enhanced for loop");
 		}
 		
-		//Checking the items in the arraylist
+		//Checking the items in the arraylist, it is case-sensitive
 		System.out.println(aryList.contains("eclipse"));
 		System.out.println(aryList.contains("Eclipse"));
 		
-		//Convert arrays to arraylist
+		//Convert array initializer to arraylist
 		String[] words = {"Array", "Arraylist", "String", "Stringarray"};
 		List<String> wordsArray = Arrays.asList(words);
 		System.out.println(wordsArray.contains("Array"));
@@ -118,11 +122,16 @@ public class CoreJavaBasics {
 		//String Literal
 		String s1 = "String1 is my sentence";
 		String s2 = "String1 is my sentence"; //for s2, the value is pointed to the s1.
+		//Both of them goes to String constant pool(SCP).
 		
 		//New memory allocator - Here a separate space is created for the variable with the same value
 		String s3 = new String("String2 is my sentence");
 		String s4 = new String("String2 is my sentence"); //For s4, a separate memory is created.
+		//A separate memory area called heap is created for storing the value.
 		
+		//Use == only if you want to check whether two variables refer to the same object in memory.
+		//Use .equals() if you want to check whether two Strings have the same content
+
 		//Split - whitespace
 		String[] splittedString = s1.split(" ");
 		System.out.println(splittedString[0]);

@@ -65,17 +65,14 @@ public class AdavancedLocators {
 
 		// passwordArray2[0]
 
-		String password = passwordArray[1].split("'")[0];
-
+		String password = passwordArray[1];
 		return password;
 
-		//0th index - Please use temporary password
-
-		//1st index - rahulshettyacademy' to Login.
-
-		//0th index - rahulshettyacademy
-
-		//1st index - to Login.
+//		0th index → "Please use temporary password "
+//
+//		1st index → "rahulshettyacademy"
+//
+//		2nd index → " to Login."
 
 
 }}

@@ -29,6 +29,9 @@ public class Assignment2 {
 		WebElement message = driver.findElement(By.xpath("//div[contains(@class,'alert alert-success')]"));
 		System.out.println(message.getText());
 		
+		
+		
+		
 		driver.quit();
 
 		

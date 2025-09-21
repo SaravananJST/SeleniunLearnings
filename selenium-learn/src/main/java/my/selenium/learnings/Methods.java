@@ -23,7 +23,7 @@ public class Methods {
 		//(Used when we don't want the method to return anything)
 		{  
 		System.out.println("Method is declared");
-		return "Return value";  //To use return, change the return type (Void --> String)
+		return "1";  //To use return, change the return type (Void --> String)
 		}
 
 }
