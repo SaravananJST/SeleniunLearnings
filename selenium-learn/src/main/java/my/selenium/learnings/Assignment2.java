@@ -6,6 +6,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
 
+import io.opentelemetry.exporter.logging.SystemOutLogRecordExporter;
+
 public class Assignment2 {
 
 	public static void main(String[] args) throws InterruptedException {
@@ -28,9 +30,6 @@ public class Assignment2 {
 		
 		WebElement message = driver.findElement(By.xpath("//div[contains(@class,'alert alert-success')]"));
 		System.out.println(message.getText());
-		
-		
-		
 		
 		driver.quit();
 
