@@ -15,18 +15,17 @@ public class AutoSuggestiveDropdowns {
 		driver.findElement(By.cssSelector("#autosuggest")).sendKeys("ind");
 		Thread.sleep(3000);
 		List<WebElement> totaloptions = driver.findElements(By.cssSelector("li[class='ui-menu-item'] a"));
-		
-		for (WebElement options: totaloptions)
-		{
-			if(options.getText().equalsIgnoreCase("India"))
-			{
+
+		for (WebElement options : totaloptions) {
+			if (options.getText().equalsIgnoreCase("India")) {
 				options.click();
 				break;
 			}
 		}
 		System.out.println(driver.findElement(By.cssSelector("#autosuggest")).getAttribute("value"));
-		driver.quit();
 		
+		driver.quit();
+
 	}
 
 }
