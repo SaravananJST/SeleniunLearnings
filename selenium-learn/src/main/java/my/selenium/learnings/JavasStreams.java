@@ -84,7 +84,7 @@ public class JavasStreams {
 		// TODO Auto-generated method stub
 
 		String pricevalue = s.findElement(By.xpath("following-sibling::td[1]")).getText();
-
+		
 		return pricevalue;
 
 	}

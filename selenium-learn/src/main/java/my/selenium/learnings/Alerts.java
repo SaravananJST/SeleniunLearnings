@@ -1,6 +1,5 @@
 package my.selenium.learnings;
 
-import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
@@ -11,6 +10,8 @@ public class Alerts {
 		ChromeDriver driver = new ChromeDriver();
 		driver.get("https://rahulshettyacademy.com/AutomationPractice/");
 		driver.findElement(By.name("enter-name")).sendKeys("Saravanan");
+		
+
 		driver.findElement(By.cssSelector("input[value='Alert']")).click();
 		String alertText1 = driver.switchTo().alert().getText();
 		System.out.println(alertText1);
