@@ -1,0 +1,23 @@
+package coreJava;
+
+import org.testng.annotations.Test;
+
+public class Childclass extends ParentClass{
+
+
+	@Test
+	public void method2() {
+	
+//		Childclass cc = new Childclass(); We can create a object and also can call the methods
+//		cc.method1();
+		
+	//	method1(); Using inheritance (Extends) we can call the parent class methods
+		int a = 10;
+		Data dt = new Data(3);
+		System.out.println(dt.increment()); 
+		
+		
+		
+	}
+	
+}

@@ -1,0 +1,28 @@
+{
+  "conversationId": "",
+  "requesterUsername": "SaravananJST",
+  "responderUsername": "GitHub Copilot",
+  "turns": [
+    {
+      "reply": {
+        "annotations": [],
+        "references": [],
+        "hideText": false,
+        "notifications": [],
+        "followups": [],
+        "errorMessages": [],
+        "editAgentRounds": [],
+        "panelMessages": [],
+        "steps": [],
+        "agentMessages": [],
+        "data": {},
+        "billingMultiplier": 0.0
+      },
+      "turnId": "7d411c6a-c799-4716-aeb3-d670551dbf5e",
+      "role": "copilot",
+      "timestamp": "2025-12-09T01:49:50.915976200Z"
+    }
+  ],
+  "creationDate": "2025-12-09T01:49:50.879451800Z",
+  "lastMessageDate": "2025-12-09T01:49:50.915976200Z"
+}

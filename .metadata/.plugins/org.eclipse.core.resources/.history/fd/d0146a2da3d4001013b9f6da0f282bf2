@@ -1,0 +1,12 @@
+package coreJava;
+
+public class Data2 {
+
+	int a;
+	public int increment()
+	{
+	a = a+1;
+	return a;	
+	}
+	
+}

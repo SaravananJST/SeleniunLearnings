@@ -1,0 +1,7 @@
+package coreJava;
+
+public class Childclass {
+
+	Childclass cc = new Childclass();
+	cc.
+}

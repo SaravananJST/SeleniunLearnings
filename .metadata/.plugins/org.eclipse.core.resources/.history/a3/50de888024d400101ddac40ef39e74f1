@@ -1,0 +1,25 @@
+package learnings_Selenium;
+
+import java.util.Scanner;
+
+public class EclipsetoGit {
+
+	public static void main(String[] args) {
+		
+		int a = 10;
+		double b = a;
+		System.out.println(b);
+		
+		String word = "Java";
+		char w = word.charAt(0);
+		System.out.println(w);
+		
+		Scanner sc = new Scanner(System.in);
+		int x = sc.nextInt();
+		System.out.println(x);
+		
+		
+		
+	}
+
+}

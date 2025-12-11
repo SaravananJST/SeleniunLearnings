@@ -1,0 +1,29 @@
+{
+  "conversationId": "342bc6d0-b9e6-4289-872f-1c9c52a25178",
+  "title": "can you resolve the errors in my program",
+  "requesterUsername": "SaravananJST",
+  "responderUsername": "GitHub Copilot",
+  "turns": [
+    {
+      "message": {
+        "text": "can you resolve the errors in my program"
+      },
+      "currentDocument": {
+        "uri": "/SeleniumFrameworkDesign/src/test/java/Automationlearning/SeleniumFrameworkDesign/StandaloneTest.java"
+      },
+      "references": [],
+      "ignoredSkills": [],
+      "userLanguage": "en",
+      "source": "panel",
+      "model": "GPT-5 mini",
+      "chatMode": "Agent",
+      "customChatModeId": "Agent",
+      "needToolCallConfirmation": true,
+      "turnId": "6bf081b4-6734-4d97-9240-b5d62f7f0263",
+      "role": "user",
+      "timestamp": "2025-12-10T05:26:27.546923200Z"
+    }
+  ],
+  "creationDate": "2025-12-10T05:26:27.534900Z",
+  "lastMessageDate": "2025-12-10T05:26:27.534900Z"
+}
